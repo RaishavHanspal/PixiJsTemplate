@@ -1,0 +1,26 @@
+{
+  "name": "pixijstemplate",
+  "description": "Template with PIXI JS Application setup, to build games seemlessly",
+  "main": "index.js",
+  "keywords": [
+    "pixijs",
+    "pixi",
+    "template"
+  ],
+  "author": "Raishav Hanspal",
+  "license": "ISC",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "1.0.1-beta.10",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "pixi.js": "^8.3.0"
+  }
+}
